@@ -2,7 +2,7 @@
 
 img {
   border-radius: 98%;
-  width: 200px;
+  width: 250px;
 }
 
 body {
@@ -10,12 +10,13 @@ body {
 }
 
 h1 {
-  color: #EA5455;
+  color: #cb9132;
   font-size: 18px;
   font-weight: 300;
   line: height 1cm;
   font-family: 'Poltawski Nowy', serif;
-  text-decoration: underline
+  text-decoration: underline;
+  text-align:start
 }
 
 p, ul{
