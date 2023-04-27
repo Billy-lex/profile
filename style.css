@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&family=Poltawski+Nowy:ital@1&display=swap');
+
+img {
+  border-radius: 98%;
+  width: 200px;
+}
+
+body {
+  background-color:#E4DCCF
+}
+
+h1 {
+  color: #EA5455;
+  font-size: 18px;
+  font-weight: 300;
+  line: height 1cm;
+  font-family: 'Poltawski Nowy', serif;
+  text-decoration: underline
+}
+
+p, ul{
+  font-family:'Poltawski Nowy', serif;
+  text-decoration: none;
+  color: #002B5B;
+  font-weight: 58;
+  font-size: 25px;
+}
+
+a:hover {
+  color: #1f74ba;
+  text-decoration: underline
+}
+
+div {
+  display: block;
+}
+
+.container {
+  width: 38%;
+  margin: 40px auto;
+}
+
+.card {
+  background-color:#F9F5EB;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align:start
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
