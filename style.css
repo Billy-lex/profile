@@ -67,6 +67,6 @@ div {
   }
 }
 
-.card h3 {
+.card h3, ul {
   text-align: center
 }
